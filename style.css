@@ -301,7 +301,7 @@ nav ul a {
 }
 .projects {
   background-color: #f9f9f9;
-  padding: 15rem 0;
+  padding: 6rem 0;
 }
 .new-projects {
   color: #2d2e32;
@@ -335,9 +335,38 @@ footer h3 {
   font-size: 2.3rem;
   color: #fff;
 }
+#ppp{
+  text-align: center;
+  color: #147efb;
+  margin-bottom: 5rem;
+  font-size: 2.5rem;
+  font-weight: 600;
+} 
+.implemntationDetails{
+  font-size: 1.1rem !important;
+  margin-bottom: 0rem !important;
+}
+.projectDetails{
+  font-size: 1.1rem !important;
+  margin-bottom: 0rem !important;
+}
+.about-project{
+  font-size: 1.1rem !important;
+  line-height: 1.5 !important;
+  margin-bottom: 1.2rem !important;
+}
+
 
 /* Media query */
 @media screen and (max-width: 768px) {
+
+  .implemntationDetails{
+    text-align: left;
+  }
+  .projectDetails{
+    text-align: left;
+  }
+
   nav {
     padding: 20px;
   }
@@ -418,7 +447,7 @@ footer h3 {
   }
 
   .img-side iframe {
-    height: 20rem;
+    height: 30rem;
     width: 100%;
   }
 
@@ -446,7 +475,7 @@ footer h3 {
   }
 
   .projects {
-    padding: 10rem 0;
+    padding: 2rem 0 ;
   }
 
   footer .container {
